@@ -6,3 +6,5 @@ class student:
 
     def get_grade(self):
         return self.__grade
+    def add_grade(self, grade):
+        return self.__grade.append(grade)
